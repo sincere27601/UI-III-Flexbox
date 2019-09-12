@@ -1,66 +1,198 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+margin-bottom: 15px;
+	}
+	
+	/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.logo {
+  
+}
+	.container {
+		/*border: 1px solid red;*/
+		width: 800px;
+		margin: auto;
+	}
+	
+	header {
+		/*border: 5px solid red;*/
+	
+	}
+	
+	nav {
+		display: flex;
+	  justify-content: space-evenly;
+		margin: 30px 10px 20px 10px;
+	}
+	
+	header nav a {
+		/*border: 1px solid blue;*/
+		margin: 0 auto;
+	}
+	
+	header .logo {
+		/*border: 1px solid blue;*/
+		position: relative;
+	    bottom: 10px;
+	}
+	
+	.services-header-img {
+		/*border: 1px solid red;*/
+		position: relative;
+		display: flex;
+	    justify-content: center;
+	    align-items: center;
+		margin: 0 auto;
+	margin-bottom: 90px;
+		width: 90%;
+	}
+	
+	.top-content {
+	    /*border: 5px solid red;*/
+	    width: 100%;
+	}
+	 .top-content .text {
+		/*border: 1px solid red;*/
+	    width: 80%;
+	    padding-left: 70px;
+	}
+	
+		hr {
+		  width: 87%;
+	    border-width: 1px;
+	    border-color: black;
+		  margin-top: 0px;
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+	}
+
+	 .middle-content{
+		border-bottom: 1px solid black;
+		display: flex;
+		flex-wrap: wrap;
+		}
+	
+	.box1 {
+		border: 1px solid red;
+		width: 500px;
+		height: 250px;
+		margin: 10px 60px 20px 0px;
+		padding: 20px;
+		background-color: whitesmoke;
+	
+    
+	}
+	
+	 .box2 {
+		border: 1px solid red;
+		width: 500px;
+		height: 250px;
+		margin-right: 150px;
+		padding: 20px;
+		background-color: whitesmoke;
+    
+	}
+	
+	.box3 {
+		border: 1px solid red;
+		width: 500px;
+		height: 250px;
+		margin: 20px 60px 20px 0px;
+		padding: 20px;
+		background-color: whitesmoke;
+	}
+	
+	
+	.box4 {
+		border: 1px solid black;
+		width: 500px;
+		height: 250px;
+		margin-left: 150px;
+		padding: 20px;
+		background-color: whitesmoke;
+	}
+	
+	.box5 {
+		border: 1px solid black;
+		width: 500px;
+		height: 250px;
+		margin: 20px 60px 20px 0px;
+		padding: 20px;
+		background-color: whitesmoke;
+	}
+	
+	.box6 {
+		border: 1px solid red;
+		width: 500px;
+		height: 250px;
+		margin-left: 150px;
+		padding: 20px;
+		background-color: whitesmoke;
+	}
+	
+	
+	button {   
+		color: black;
+	    width: 130px;
+	    height: 35px;
+	    padding-left: 10px;
+		border-radius: 3px;
+		margin-top: 40px;
+	    background-color: white;
+	    border: 1px solid black;
+	}
+	
+	
+	.services-info-img {
+		position: relative;
+	    border: 1px solid red;
+	}
+	
+div {
+  width: 300px;
+  border: 5px solid;
+  padding: 60px;
+  margin: 20px;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+	
+	.facts {
+		display: flex;
+		flex-direction: row;
+	  justify-content: space-evenly;
+	  margin: 20px 0px 0px 65px;
+		border-top: 3px solid black;
+		border: px solid black;
+		padding: 70px;
+		width: 50%;
+	  margin: 0px 0px 0px 0px;
+	}
+	
+	.facts h2 {
+		margin-top: 20px;
+	}
+	
+	ul {
+		list-style-type: square;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+.facts {
+  width: 500px;
+  border: 0px solid;
+  padding: 90px;
+  margin: 0px;
+  
 }
-
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+.footer{
+  display: flex;
+	justify-content: space-evenly;
+	margin: 30px 10px 20px 10px;
+	}
+ 
+.text {
+  width: 300px;
+  border: 0px solid;
+  padding: 0px;
+  margin: 0px;
 }
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+.picture{
+	width: 30px;
+	border: 0px solid;
+	padding: 10px;
+	margin: 20px;
 }
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
